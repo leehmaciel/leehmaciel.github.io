@@ -1,26 +1,54 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.root {
+  height: 100%;
+  width: 100%;
+}
+
 .container {
-  text-align: center;
   background-color: #FFCC99;
+  height: 100%;
+  width: 100%;
+  display: flex;
 }
 
 .container__pic {
+  width: 40%;
+  object-fit: cover;
 }
 
 .container__infos {
+  width: 60%;
+  padding: 130px 30px ;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .infos__name {
+  color: #933EC5;
+  font-family: Arial Black; 
+  text-align: center;
 }
 
 .infos__bio {
-  text-align: right;
+  color: #5F4F77;
 }
 
-.infos__list-social {
+.bio__list-social {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
 }
 
 .list-social__social {
 }
 
 .social__icon {
+  margin-top: 10px;
+  margin-right: 20px;
 }
